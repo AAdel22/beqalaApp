@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1A3D18237EE9DF009CE90F /* RequestTabVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1A3D17237EE9DF009CE90F /* RequestTabVc.swift */; };
+		3E2C3C65237C55A300110C29 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C3C64237C55A300110C29 /* EditProfileVC.swift */; };
+		3E3CA35E23637D9A0067115D /* Api+Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CA35D23637D990067115D /* Api+Favourite.swift */; };
+		3E3CA360236383A00067115D /* Api+SearchProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CA35F236383A00067115D /* Api+SearchProducts.swift */; };
+		3E3CA362236384F30067115D /* SearchProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CA361236384F30067115D /* SearchProducts.swift */; };
+		3E3DF8AD232A803D0081FD66 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DF8AC232A803D0081FD66 /* helper.swift */; };
+		3E3DF8AF232ABE910081FD66 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DF8AE232ABE910081FD66 /* MainTabVC.swift */; };
+		3E3DF8B2232AC7330081FD66 /* MainCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DF8B1232AC7330081FD66 /* MainCategories.swift */; };
+		3E3DF8B4232AC7D90081FD66 /* Api+MainCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DF8B3232AC7D90081FD66 /* Api+MainCategories.swift */; };
+		3E3DF8B8232B0B500081FD66 /* categoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DF8B7232B0B500081FD66 /* categoriesCell.swift */; };
+		3E4A15FB23804F23007E645D /* descriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4A15FA23804F23007E645D /* descriptionCell.swift */; };
+		3E4B64FD232692B2003051DA /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B64FC232692B2003051DA /* Api.swift */; };
+		3E4DC39A23799EA3005C0C4F /* SingleProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DC39923799EA3005C0C4F /* SingleProductVC.swift */; };
+		3E4DC39C2379A583005C0C4F /* UnitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DC39B2379A583005C0C4F /* UnitsTableViewCell.swift */; };
+		3E4DC39E2379DBF4005C0C4F /* SizesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DC39D2379DBF4005C0C4F /* SizesTableViewCell.swift */; };
+		3E4DC3A02379E1DB005C0C4F /* SingleProductUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DC39F2379E1DB005C0C4F /* SingleProductUnits.swift */; };
+		3E4DC3A22379E217005C0C4F /* SingleProductSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DC3A12379E217005C0C4F /* SingleProductSizes.swift */; };
+		3E4DC3A5237A0AE5005C0C4F /* SingleProductNameandDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DC3A4237A0AE5005C0C4F /* SingleProductNameandDescription.swift */; };
+		3E50F55A2360AB4B00F74B05 /* mainCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50F5592360AB4B00F74B05 /* mainCategoriesCell.swift */; };
+		3E50F55C2360AB6100F74B05 /* subMainCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50F55B2360AB6100F74B05 /* subMainCategoriesCell.swift */; };
+		3E50F55F2360AC6000F74B05 /* Api+Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50F55E2360AC6000F74B05 /* Api+Categories.swift */; };
+		3E50F5622360AD1400F74B05 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50F5612360AD1400F74B05 /* Categories.swift */; };
+		3E50F5652360ADF300F74B05 /* CategoriesOfClothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50F5642360ADF300F74B05 /* CategoriesOfClothes.swift */; };
+		3E50F5682360AE2A00F74B05 /* Api+CategoriesOfClothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50F5672360AE2A00F74B05 /* Api+CategoriesOfClothes.swift */; };
+		3E68F9D3237441540041D8D0 /* Api+ProductsSubCategoriesId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E68F9D2237441540041D8D0 /* Api+ProductsSubCategoriesId.swift */; };
+		3E68F9D52374423D0041D8D0 /* SubCategoriesId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E68F9D42374423D0041D8D0 /* SubCategoriesId.swift */; };
+		3E79F8AF237734380041B984 /* Api+AddItemToCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E79F8AE237734380041B984 /* Api+AddItemToCart.swift */; };
+		3E83F3D023325237003D3EDC /* String-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E83F3CF23325237003D3EDC /* String-Extention.swift */; };
+		3E8752FE23254560008FE618 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8752FD23254560008FE618 /* CheckBox.swift */; };
+		3E8A19C6233AB846000BD09B /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A19C5233AB846000BD09B /* AboutAppVC.swift */; };
+		3E8B1BFF2339463F008A8E89 /* Api+Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B1BFE2339463F008A8E89 /* Api+Products.swift */; };
+		3E8B1C01233946F2008A8E89 /* AllProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B1C00233946F2008A8E89 /* AllProducts.swift */; };
+		3E8FEA102378894900825B10 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FEA0E2378894900825B10 /* ProductTableViewCell.swift */; };
+		3E8FEA112378894900825B10 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FEA0F2378894900825B10 /* ProductTableViewCell.xib */; };
+		3E96AB49232141AC00737106 /* ForgetpasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96AB48232141AC00737106 /* ForgetpasswordVC.swift */; };
+		3E96AB4B2321543000737106 /* CodeForgetpasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96AB4A2321543000737106 /* CodeForgetpasswordVC.swift */; };
+		3E9BCA9023201DCC0063E2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BCA8F23201DCC0063E2FE /* AppDelegate.swift */; };
+		3E9BCA9223201DCC0063E2FE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BCA9123201DCC0063E2FE /* LoginVC.swift */; };
+		3E9BCA9523201DCC0063E2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9BCA9323201DCC0063E2FE /* Main.storyboard */; };
+		3E9BCA9723201DD20063E2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9BCA9623201DD20063E2FE /* Assets.xcassets */; };
+		3E9BCA9A23201DD20063E2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9BCA9823201DD20063E2FE /* LaunchScreen.storyboard */; };
+		3E9BCAA3232028F10063E2FE /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BCAA2232028F10063E2FE /* SignupVC.swift */; };
+		3EA01E27233BB0D400CE1B07 /* favouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA01E26233BB0D300CE1B07 /* favouriteCell.swift */; };
+		3EA01E29233BB10E00CE1B07 /* FavouriteTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA01E28233BB10E00CE1B07 /* FavouriteTabVC.swift */; };
+		3EA01E2B233BB36E00CE1B07 /* ProductFavourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA01E2A233BB36E00CE1B07 /* ProductFavourite.swift */; };
+		3EA03D5023610C6900751DA2 /* SubCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA03D4F23610C6900751DA2 /* SubCategories.swift */; };
+		3EA03D532361109500751DA2 /* clothesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA03D522361109500751DA2 /* clothesCell.swift */; };
+		3EA635652337AA6E00E56710 /* MoreTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA635642337AA6E00E56710 /* MoreTabVC.swift */; };
+		3EA6356A2337BB8600E56710 /* sooqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA635692337BB8600E56710 /* sooqVC.swift */; };
+		3EA6356C2337C95E00E56710 /* superMarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6356B2337C95E00E56710 /* superMarketVC.swift */; };
+		3EA6356E2337C9AF00E56710 /* RestaurantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6356D2337C9AF00E56710 /* RestaurantsVC.swift */; };
+		3EA635702337C9D700E56710 /* ClothesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6356F2337C9D700E56710 /* ClothesVC.swift */; };
+		3EE20EB323621E4E0077F0AB /* singleProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE20EB223621E4E0077F0AB /* singleProductCell.swift */; };
+		3EE20EBF236220570077F0AB /* SingleProductGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE20EBE236220570077F0AB /* SingleProductGallery.swift */; };
+		3EE20EC1236221050077F0AB /* Api+SingleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE20EC0236221050077F0AB /* Api+SingleProduct.swift */; };
+		3EE72FFF237AE63900B5725D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE72FFE237AE63900B5725D /* ProfileVC.swift */; };
+		81B1B46F4EA1F005416DD8DE /* Pods_beqalaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE268C14B688706685B66EDD /* Pods_beqalaApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E1A3D17237EE9DF009CE90F /* RequestTabVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTabVc.swift; sourceTree = "<group>"; };
+		3E2C3C64237C55A300110C29 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		3E3CA35D23637D990067115D /* Api+Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+Favourite.swift"; sourceTree = "<group>"; };
+		3E3CA35F236383A00067115D /* Api+SearchProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+SearchProducts.swift"; sourceTree = "<group>"; };
+		3E3CA361236384F30067115D /* SearchProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProducts.swift; sourceTree = "<group>"; };
+		3E3DF8AC232A803D0081FD66 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		3E3DF8AE232ABE910081FD66 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
+		3E3DF8B1232AC7330081FD66 /* MainCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategories.swift; sourceTree = "<group>"; };
+		3E3DF8B3232AC7D90081FD66 /* Api+MainCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+MainCategories.swift"; sourceTree = "<group>"; };
+		3E3DF8B7232B0B500081FD66 /* categoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesCell.swift; sourceTree = "<group>"; };
+		3E4A15FA23804F23007E645D /* descriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descriptionCell.swift; sourceTree = "<group>"; };
+		3E4B64FC232692B2003051DA /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		3E4DC39923799EA3005C0C4F /* SingleProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleProductVC.swift; sourceTree = "<group>"; };
+		3E4DC39B2379A583005C0C4F /* UnitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsTableViewCell.swift; sourceTree = "<group>"; };
+		3E4DC39D2379DBF4005C0C4F /* SizesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesTableViewCell.swift; sourceTree = "<group>"; };
+		3E4DC39F2379E1DB005C0C4F /* SingleProductUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProductUnits.swift; sourceTree = "<group>"; };
+		3E4DC3A12379E217005C0C4F /* SingleProductSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProductSizes.swift; sourceTree = "<group>"; };
+		3E4DC3A4237A0AE5005C0C4F /* SingleProductNameandDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProductNameandDescription.swift; sourceTree = "<group>"; };
+		3E50F5592360AB4B00F74B05 /* mainCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mainCategoriesCell.swift; path = ../../../../../Documents/mainCategoriesCell.swift; sourceTree = "<group>"; };
+		3E50F55B2360AB6100F74B05 /* subMainCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = subMainCategoriesCell.swift; path = ../../../../../Documents/subMainCategoriesCell.swift; sourceTree = "<group>"; };
+		3E50F55E2360AC6000F74B05 /* Api+Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Api+Categories.swift"; path = "../../../../../Documents/Api+Categories.swift"; sourceTree = "<group>"; };
+		3E50F5612360AD1400F74B05 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Categories.swift; path = ../../../../../Documents/Categories.swift; sourceTree = "<group>"; };
+		3E50F5642360ADF300F74B05 /* CategoriesOfClothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoriesOfClothes.swift; path = ../../../../../Documents/CategoriesOfClothes.swift; sourceTree = "<group>"; };
+		3E50F5672360AE2A00F74B05 /* Api+CategoriesOfClothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Api+CategoriesOfClothes.swift"; path = "../../../../../Documents/Api+CategoriesOfClothes.swift"; sourceTree = "<group>"; };
+		3E68F9D2237441540041D8D0 /* Api+ProductsSubCategoriesId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+ProductsSubCategoriesId.swift"; sourceTree = "<group>"; };
+		3E68F9D42374423D0041D8D0 /* SubCategoriesId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoriesId.swift; sourceTree = "<group>"; };
+		3E79F8AE237734380041B984 /* Api+AddItemToCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+AddItemToCart.swift"; sourceTree = "<group>"; };
+		3E83F3CF23325237003D3EDC /* String-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extention.swift"; sourceTree = "<group>"; };
+		3E8752FD23254560008FE618 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		3E8A19C5233AB846000BD09B /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
+		3E8B1BFE2339463F008A8E89 /* Api+Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+Products.swift"; sourceTree = "<group>"; };
+		3E8B1C00233946F2008A8E89 /* AllProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProducts.swift; sourceTree = "<group>"; };
+		3E8FEA0E2378894900825B10 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		3E8FEA0F2378894900825B10 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		3E96AB48232141AC00737106 /* ForgetpasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetpasswordVC.swift; sourceTree = "<group>"; };
+		3E96AB4A2321543000737106 /* CodeForgetpasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeForgetpasswordVC.swift; sourceTree = "<group>"; };
+		3E9BCA8C23201DCC0063E2FE /* beqalaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beqalaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9BCA8F23201DCC0063E2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E9BCA9123201DCC0063E2FE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3E9BCA9423201DCC0063E2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E9BCA9623201DD20063E2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E9BCA9923201DD20063E2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E9BCA9B23201DD20063E2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = beqalaApp/SupportingFile/Info.plist; sourceTree = SOURCE_ROOT; };
+		3E9BCAA2232028F10063E2FE /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		3EA01E26233BB0D300CE1B07 /* favouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favouriteCell.swift; sourceTree = "<group>"; };
+		3EA01E28233BB10E00CE1B07 /* FavouriteTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTabVC.swift; sourceTree = "<group>"; };
+		3EA01E2A233BB36E00CE1B07 /* ProductFavourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFavourite.swift; sourceTree = "<group>"; };
+		3EA03D4F23610C6900751DA2 /* SubCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategories.swift; sourceTree = "<group>"; };
+		3EA03D522361109500751DA2 /* clothesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothesCell.swift; sourceTree = "<group>"; };
+		3EA635642337AA6E00E56710 /* MoreTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabVC.swift; sourceTree = "<group>"; };
+		3EA635692337BB8600E56710 /* sooqVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sooqVC.swift; sourceTree = "<group>"; };
+		3EA6356B2337C95E00E56710 /* superMarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superMarketVC.swift; sourceTree = "<group>"; };
+		3EA6356D2337C9AF00E56710 /* RestaurantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsVC.swift; sourceTree = "<group>"; };
+		3EA6356F2337C9D700E56710 /* ClothesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesVC.swift; sourceTree = "<group>"; };
+		3EE20EB223621E4E0077F0AB /* singleProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleProductCell.swift; sourceTree = "<group>"; };
+		3EE20EBE236220570077F0AB /* SingleProductGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProductGallery.swift; sourceTree = "<group>"; };
+		3EE20EC0236221050077F0AB /* Api+SingleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+SingleProduct.swift"; sourceTree = "<group>"; };
+		3EE72FFE237AE63900B5725D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		B5084E4E003A5C3051F81B02 /* Pods-beqalaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beqalaApp.release.xcconfig"; path = "Target Support Files/Pods-beqalaApp/Pods-beqalaApp.release.xcconfig"; sourceTree = "<group>"; };
+		C83A131D894BDFD4F1FE1CB5 /* Pods-beqalaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beqalaApp.debug.xcconfig"; path = "Target Support Files/Pods-beqalaApp/Pods-beqalaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EE268C14B688706685B66EDD /* Pods_beqalaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beqalaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9BCA8923201DCB0063E2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B1B46F4EA1F005416DD8DE /* Pods_beqalaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3DF8B0232AC6F50081FD66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E50F5632360ADDE00F74B05 /* Clothes */,
+				3E50F5602360ACFA00F74B05 /* superMarket */,
+				3E3DF8B1232AC7330081FD66 /* MainCategories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E3DF8B9232B0C580081FD66 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3EA03D512361107500751DA2 /* clothes */,
+				3E50F5582360AA5100F74B05 /* superMarket */,
+				3E3DF8B7232B0B500081FD66 /* categoriesCell.swift */,
+				3EA01E26233BB0D300CE1B07 /* favouriteCell.swift */,
+				3E8FEA0E2378894900825B10 /* ProductTableViewCell.swift */,
+				3E8FEA0F2378894900825B10 /* ProductTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3E4B64FB2326929A003051DA /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				3E79F8AD2377340A0041B984 /* Cart */,
+				3E50F5662360AE1100F74B05 /* Clothes */,
+				3E50F55D2360AC0500F74B05 /* SuperMarket */,
+				3E4B64FC232692B2003051DA /* Api.swift */,
+				3E3DF8B3232AC7D90081FD66 /* Api+MainCategories.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		3E4DC3A32379E222005C0C4F /* SingleProduct */ = {
+			isa = PBXGroup;
+			children = (
+				3EE20EBE236220570077F0AB /* SingleProductGallery.swift */,
+				3E4DC39F2379E1DB005C0C4F /* SingleProductUnits.swift */,
+				3E4DC3A12379E217005C0C4F /* SingleProductSizes.swift */,
+				3E4DC3A4237A0AE5005C0C4F /* SingleProductNameandDescription.swift */,
+			);
+			path = SingleProduct;
+			sourceTree = "<group>";
+		};
+		3E50F5582360AA5100F74B05 /* superMarket */ = {
+			isa = PBXGroup;
+			children = (
+				3EE20EB123621E270077F0AB /* ProductsOfSuperMarket */,
+				3E50F5592360AB4B00F74B05 /* mainCategoriesCell.swift */,
+				3E50F55B2360AB6100F74B05 /* subMainCategoriesCell.swift */,
+			);
+			path = superMarket;
+			sourceTree = "<group>";
+		};
+		3E50F55D2360AC0500F74B05 /* SuperMarket */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B1BFE2339463F008A8E89 /* Api+Products.swift */,
+				3EE20EC0236221050077F0AB /* Api+SingleProduct.swift */,
+				3E68F9D2237441540041D8D0 /* Api+ProductsSubCategoriesId.swift */,
+				3E50F55E2360AC6000F74B05 /* Api+Categories.swift */,
+				3E3CA35D23637D990067115D /* Api+Favourite.swift */,
+				3E3CA35F236383A00067115D /* Api+SearchProducts.swift */,
+			);
+			path = SuperMarket;
+			sourceTree = "<group>";
+		};
+		3E50F5602360ACFA00F74B05 /* superMarket */ = {
+			isa = PBXGroup;
+			children = (
+				3E4DC3A32379E222005C0C4F /* SingleProduct */,
+				3E8B1C00233946F2008A8E89 /* AllProducts.swift */,
+				3E50F5612360AD1400F74B05 /* Categories.swift */,
+				3EA03D4F23610C6900751DA2 /* SubCategories.swift */,
+				3E68F9D42374423D0041D8D0 /* SubCategoriesId.swift */,
+				3EA01E2A233BB36E00CE1B07 /* ProductFavourite.swift */,
+				3E3CA361236384F30067115D /* SearchProducts.swift */,
+			);
+			path = superMarket;
+			sourceTree = "<group>";
+		};
+		3E50F5632360ADDE00F74B05 /* Clothes */ = {
+			isa = PBXGroup;
+			children = (
+				3E50F5642360ADF300F74B05 /* CategoriesOfClothes.swift */,
+			);
+			path = Clothes;
+			sourceTree = "<group>";
+		};
+		3E50F5662360AE1100F74B05 /* Clothes */ = {
+			isa = PBXGroup;
+			children = (
+				3E50F5672360AE2A00F74B05 /* Api+CategoriesOfClothes.swift */,
+			);
+			path = Clothes;
+			sourceTree = "<group>";
+		};
+		3E79F8AD2377340A0041B984 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				3E79F8AE237734380041B984 /* Api+AddItemToCart.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		3E83F3CD2332504F003D3EDC /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				3E9BCA9623201DD20063E2FE /* Assets.xcassets */,
+				3E9BCA9823201DD20063E2FE /* LaunchScreen.storyboard */,
+				3E9BCA9B23201DD20063E2FE /* Info.plist */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		3E83F3CE23325217003D3EDC /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				3E83F3CF23325237003D3EDC /* String-Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		3E8A19C4233AB7A2000BD09B /* DetailsOfMoreTabVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E8A19C5233AB846000BD09B /* AboutAppVC.swift */,
+				3EE72FFE237AE63900B5725D /* ProfileVC.swift */,
+				3E2C3C64237C55A300110C29 /* EditProfileVC.swift */,
+			);
+			path = DetailsOfMoreTabVC;
+			sourceTree = "<group>";
+		};
+		3E9BCA8323201DCB0063E2FE = {
+			isa = PBXGroup;
+			children = (
+				3E9BCA8E23201DCC0063E2FE /* beqalaApp */,
+				3E9BCA8D23201DCC0063E2FE /* Products */,
+				CA843BE64A6BB357CCD4C46F /* Pods */,
+				D99526B2B51B4EFC828EFB2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E9BCA8D23201DCC0063E2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E9BCA8C23201DCC0063E2FE /* beqalaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E9BCA8E23201DCC0063E2FE /* beqalaApp */ = {
+			isa = PBXGroup;
+			children = (
+				3EE20EA023621A920077F0AB /* DetailsOfSuperMarketVc */,
+				3E8A19C4233AB7A2000BD09B /* DetailsOfMoreTabVC */,
+				3EA635682337BB4900E56710 /* DetailsOfMainTabVC */,
+				3E83F3CE23325217003D3EDC /* Extention */,
+				3E9BCA8F23201DCC0063E2FE /* AppDelegate.swift */,
+				3E3DF8AC232A803D0081FD66 /* helper.swift */,
+				3E8752FD23254560008FE618 /* CheckBox.swift */,
+				3E9BCA9323201DCC0063E2FE /* Main.storyboard */,
+				3E3DF8B9232B0C580081FD66 /* Cells */,
+				3E3DF8B0232AC6F50081FD66 /* Model */,
+				3E4B64FB2326929A003051DA /* Api */,
+				3E9BCAA1232028120063E2FE /* Controller */,
+				3E83F3CD2332504F003D3EDC /* SupportingFile */,
+			);
+			path = beqalaApp;
+			sourceTree = "<group>";
+		};
+		3E9BCAA1232028120063E2FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E9BCA9123201DCC0063E2FE /* LoginVC.swift */,
+				3E9BCAA2232028F10063E2FE /* SignupVC.swift */,
+				3E96AB48232141AC00737106 /* ForgetpasswordVC.swift */,
+				3E96AB4A2321543000737106 /* CodeForgetpasswordVC.swift */,
+				3E3DF8AE232ABE910081FD66 /* MainTabVC.swift */,
+				3EA635642337AA6E00E56710 /* MoreTabVC.swift */,
+				3E1A3D17237EE9DF009CE90F /* RequestTabVc.swift */,
+				3EA01E28233BB10E00CE1B07 /* FavouriteTabVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EA03D512361107500751DA2 /* clothes */ = {
+			isa = PBXGroup;
+			children = (
+				3EA03D522361109500751DA2 /* clothesCell.swift */,
+			);
+			path = clothes;
+			sourceTree = "<group>";
+		};
+		3EA635682337BB4900E56710 /* DetailsOfMainTabVC */ = {
+			isa = PBXGroup;
+			children = (
+				3EA635692337BB8600E56710 /* sooqVC.swift */,
+				3EA6356B2337C95E00E56710 /* superMarketVC.swift */,
+				3EA6356F2337C9D700E56710 /* ClothesVC.swift */,
+				3EA6356D2337C9AF00E56710 /* RestaurantsVC.swift */,
+			);
+			path = DetailsOfMainTabVC;
+			sourceTree = "<group>";
+		};
+		3EE20EA023621A920077F0AB /* DetailsOfSuperMarketVc */ = {
+			isa = PBXGroup;
+			children = (
+				3E4DC39923799EA3005C0C4F /* SingleProductVC.swift */,
+			);
+			path = DetailsOfSuperMarketVc;
+			sourceTree = "<group>";
+		};
+		3EE20EB123621E270077F0AB /* ProductsOfSuperMarket */ = {
+			isa = PBXGroup;
+			children = (
+				3EE20EB223621E4E0077F0AB /* singleProductCell.swift */,
+				3E4A15FA23804F23007E645D /* descriptionCell.swift */,
+				3E4DC39B2379A583005C0C4F /* UnitsTableViewCell.swift */,
+				3E4DC39D2379DBF4005C0C4F /* SizesTableViewCell.swift */,
+			);
+			path = ProductsOfSuperMarket;
+			sourceTree = "<group>";
+		};
+		CA843BE64A6BB357CCD4C46F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C83A131D894BDFD4F1FE1CB5 /* Pods-beqalaApp.debug.xcconfig */,
+				B5084E4E003A5C3051F81B02 /* Pods-beqalaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D99526B2B51B4EFC828EFB2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE268C14B688706685B66EDD /* Pods_beqalaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E9BCA8B23201DCB0063E2FE /* beqalaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9BCA9E23201DD20063E2FE /* Build configuration list for PBXNativeTarget "beqalaApp" */;
+			buildPhases = (
+				31FE6573E5F9BFD01E9F5E0A /* [CP] Check Pods Manifest.lock */,
+				3E9BCA8823201DCB0063E2FE /* Sources */,
+				3E9BCA8923201DCB0063E2FE /* Frameworks */,
+				3E9BCA8A23201DCB0063E2FE /* Resources */,
+				8558A4FE6E6A6FC0327F6686 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beqalaApp;
+			productName = beqalaApp;
+			productReference = 3E9BCA8C23201DCC0063E2FE /* beqalaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E9BCA8423201DCB0063E2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alaa Adel";
+				TargetAttributes = {
+					3E9BCA8B23201DCB0063E2FE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E9BCA8723201DCB0063E2FE /* Build configuration list for PBXProject "beqalaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E9BCA8323201DCB0063E2FE;
+			productRefGroup = 3E9BCA8D23201DCC0063E2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E9BCA8B23201DCB0063E2FE /* beqalaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E9BCA8A23201DCB0063E2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9BCA9A23201DD20063E2FE /* LaunchScreen.storyboard in Resources */,
+				3E8FEA112378894900825B10 /* ProductTableViewCell.xib in Resources */,
+				3E9BCA9723201DD20063E2FE /* Assets.xcassets in Resources */,
+				3E9BCA9523201DCC0063E2FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31FE6573E5F9BFD01E9F5E0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beqalaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8558A4FE6E6A6FC0327F6686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beqalaApp/Pods-beqalaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9BCA8823201DCB0063E2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E50F5652360ADF300F74B05 /* CategoriesOfClothes.swift in Sources */,
+				3E68F9D52374423D0041D8D0 /* SubCategoriesId.swift in Sources */,
+				3EE20EBF236220570077F0AB /* SingleProductGallery.swift in Sources */,
+				3E3CA360236383A00067115D /* Api+SearchProducts.swift in Sources */,
+				3E3DF8B2232AC7330081FD66 /* MainCategories.swift in Sources */,
+				3E4DC3A02379E1DB005C0C4F /* SingleProductUnits.swift in Sources */,
+				3EA01E27233BB0D400CE1B07 /* favouriteCell.swift in Sources */,
+				3E8B1C01233946F2008A8E89 /* AllProducts.swift in Sources */,
+				3EA03D5023610C6900751DA2 /* SubCategories.swift in Sources */,
+				3EE72FFF237AE63900B5725D /* ProfileVC.swift in Sources */,
+				3E3CA35E23637D9A0067115D /* Api+Favourite.swift in Sources */,
+				3E8B1BFF2339463F008A8E89 /* Api+Products.swift in Sources */,
+				3E50F55F2360AC6000F74B05 /* Api+Categories.swift in Sources */,
+				3EA01E29233BB10E00CE1B07 /* FavouriteTabVC.swift in Sources */,
+				3E1A3D18237EE9DF009CE90F /* RequestTabVc.swift in Sources */,
+				3E3DF8AF232ABE910081FD66 /* MainTabVC.swift in Sources */,
+				3E4DC39C2379A583005C0C4F /* UnitsTableViewCell.swift in Sources */,
+				3E3CA362236384F30067115D /* SearchProducts.swift in Sources */,
+				3EA6356A2337BB8600E56710 /* sooqVC.swift in Sources */,
+				3E96AB4B2321543000737106 /* CodeForgetpasswordVC.swift in Sources */,
+				3E50F5682360AE2A00F74B05 /* Api+CategoriesOfClothes.swift in Sources */,
+				3E2C3C65237C55A300110C29 /* EditProfileVC.swift in Sources */,
+				3E96AB49232141AC00737106 /* ForgetpasswordVC.swift in Sources */,
+				3E8752FE23254560008FE618 /* CheckBox.swift in Sources */,
+				3E83F3D023325237003D3EDC /* String-Extention.swift in Sources */,
+				3E79F8AF237734380041B984 /* Api+AddItemToCart.swift in Sources */,
+				3E3DF8B4232AC7D90081FD66 /* Api+MainCategories.swift in Sources */,
+				3E50F55A2360AB4B00F74B05 /* mainCategoriesCell.swift in Sources */,
+				3E4DC39A23799EA3005C0C4F /* SingleProductVC.swift in Sources */,
+				3EA635652337AA6E00E56710 /* MoreTabVC.swift in Sources */,
+				3E4DC3A5237A0AE5005C0C4F /* SingleProductNameandDescription.swift in Sources */,
+				3EE20EC1236221050077F0AB /* Api+SingleProduct.swift in Sources */,
+				3E68F9D3237441540041D8D0 /* Api+ProductsSubCategoriesId.swift in Sources */,
+				3E9BCAA3232028F10063E2FE /* SignupVC.swift in Sources */,
+				3E50F5622360AD1400F74B05 /* Categories.swift in Sources */,
+				3E9BCA9223201DCC0063E2FE /* LoginVC.swift in Sources */,
+				3E4A15FB23804F23007E645D /* descriptionCell.swift in Sources */,
+				3EA6356E2337C9AF00E56710 /* RestaurantsVC.swift in Sources */,
+				3E4B64FD232692B2003051DA /* Api.swift in Sources */,
+				3E50F55C2360AB6100F74B05 /* subMainCategoriesCell.swift in Sources */,
+				3E4DC39E2379DBF4005C0C4F /* SizesTableViewCell.swift in Sources */,
+				3E8A19C6233AB846000BD09B /* AboutAppVC.swift in Sources */,
+				3EA03D532361109500751DA2 /* clothesCell.swift in Sources */,
+				3EA6356C2337C95E00E56710 /* superMarketVC.swift in Sources */,
+				3E3DF8B8232B0B500081FD66 /* categoriesCell.swift in Sources */,
+				3EE20EB323621E4E0077F0AB /* singleProductCell.swift in Sources */,
+				3E8FEA102378894900825B10 /* ProductTableViewCell.swift in Sources */,
+				3E9BCA9023201DCC0063E2FE /* AppDelegate.swift in Sources */,
+				3E4DC3A22379E217005C0C4F /* SingleProductSizes.swift in Sources */,
+				3E3DF8AD232A803D0081FD66 /* helper.swift in Sources */,
+				3EA01E2B233BB36E00CE1B07 /* ProductFavourite.swift in Sources */,
+				3EA635702337C9D700E56710 /* ClothesVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E9BCA9323201DCC0063E2FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9BCA9423201DCC0063E2FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E9BCA9823201DD20063E2FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9BCA9923201DD20063E2FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E9BCA9C23201DD20063E2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E9BCA9D23201DD20063E2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E9BCA9F23201DD20063E2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83A131D894BDFD4F1FE1CB5 /* Pods-beqalaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = beqalaApp/SupportingFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beqalaApp.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E9BCAA023201DD20063E2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5084E4E003A5C3051F81B02 /* Pods-beqalaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = beqalaApp/SupportingFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = beqalaApp.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E9BCA8723201DCB0063E2FE /* Build configuration list for PBXProject "beqalaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9BCA9C23201DD20063E2FE /* Debug */,
+				3E9BCA9D23201DD20063E2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9BCA9E23201DD20063E2FE /* Build configuration list for PBXNativeTarget "beqalaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9BCA9F23201DD20063E2FE /* Debug */,
+				3E9BCAA023201DD20063E2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E9BCA8423201DCB0063E2FE /* Project object */;
+}
